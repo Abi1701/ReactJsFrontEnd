@@ -1,0 +1,111 @@
+.root{
+background-image: radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 99.74%),
+ url('../../assets/bg4.svg');
+ width: 1440px;
+ height: 1024px;
+display: flex;
+background-repeat: no-repeat;
+}
+.content1{
+  color: white ;
+  display: flex;
+  position: absolute;
+  margin-top: 4rem;
+}
+.contents11{
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 2em;
+line-height: 64px;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-left: 5rem;
+}
+.contents12{
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 1em;
+line-height: 16px;
+letter-spacing: 2px;
+color: #FFFFFF;
+margin-left: 2rem;
+margin-top: 3rem;
+}
+.bordered{
+  margin-top: 15rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.box{
+  width: 90%;
+  margin-left: 8rem;
+  position: absolute;
+}
+.topcontent{
+  display: flex;
+  margin-top: 1rem;
+}
+.content2{
+margin-left: 9rem;
+}
+.contents21{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+  
+  letter-spacing: 2px;
+  
+  color: #FFB548;
+}
+.contents22{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+.content3{
+  margin-left: 5rem;
+  }
+.Bar{
+  margin-left: 8rem;
+  width: 90.2%;
+  margin-top: 3rem;
+}
+.midcontent{
+  display: flex;
+  margin-left: 9rem;
+  margin-top: 2rem;
+}
+.content4{
+
+}
+.content5{
+  margin-left: 11rem;
+}
+.Bar1{
+  margin-left: 8rem;
+  width: 90.2%;
+  margin-top: 2rem;
+}
+.bottomcontent{
+  margin-left: 9rem;
+  
+}
+.MidBar{
+  position: absolute;
+  width: 0px;
+  height: 73.5%;
+  margin-left: 27rem;
+  top: 0.1rem;
+  
+  border: 1px solid #979797;
+}

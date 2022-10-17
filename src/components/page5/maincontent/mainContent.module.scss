@@ -1,0 +1,50 @@
+.root{
+
+}
+.content{
+
+}
+.content1{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.content2{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+color: #FFFFFF;
+}
+.button{
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  border-radius: 4px;
+  height: 59.999969482421875px;
+  width: 260.3616943359375px;
+  color: black;
+  display: flex;
+  font-style: bold;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-top: 2rem;
+  text-decoration: none;
+}

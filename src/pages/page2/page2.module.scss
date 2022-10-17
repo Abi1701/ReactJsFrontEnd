@@ -1,0 +1,24 @@
+.root{
+  background-image:
+  radial-gradient(100% 45.57% at 50% 48.04%,
+     #ffff 0%,
+      #0000 0%,
+      #080A0B 100%),
+  url('../../assets/bg2.svg');
+  height: 100vh; 
+  display: flex;
+  background-repeat: no-repeat;
+}
+.container{
+  display: flex;
+}
+.content{
+ color: white;
+ margin-top: 8rem;
+ margin-left: 10rem;
+ font-size: 2em;
+}
+.carousel{
+  margin-top: 12rem;
+  margin-left: 10rem;
+}

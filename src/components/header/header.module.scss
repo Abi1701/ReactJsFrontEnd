@@ -1,0 +1,53 @@
+.root{
+  height: 90px;
+  background-color:rgba(0, 0, 0, 0.5);
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  width: 20%;
+  border-radius: 25%;
+  margin-left: 9rem;
+}
+.divLink{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin-left: 15rem;
+}
+.link{
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  justify-content:space-around;
+  margin-left: 4rem;
+}
+.nama{
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  justify-content:space-around;
+  cursor: pointer;
+}
+.logout{
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  justify-content:space-around;
+  margin-left: 4rem;
+  cursor: pointer;
+}
+.auth{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10%;
+  margin-left: 29rem;
+}
