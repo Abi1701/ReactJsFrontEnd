@@ -25,14 +25,14 @@
 .trbody:nth-child(even){background-color: #f2f2f2;}
 .button{
   background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
-  height: 20px;
-  width: 150px;
+  height: 10px;
+  width: 100px;
   color: white;
   font-style: bold;
   justify-content: center;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 22px;
   text-align: center;
   align-items: center;
@@ -46,6 +46,7 @@
   user-select: none;
   margin-top: 0.5rem;
   margin-left: 5rem;
+  border-radius: 15px;
 }
 .button:hover {
   box-shadow: 0 0 10px -1px rgba(0,0,0,0.6);

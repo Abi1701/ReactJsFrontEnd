@@ -1,0 +1,60 @@
+.root{
+  background: url('../../assets//background.svg');
+  width: 1448.25px;
+  height: 959.87px;
+  display: flex;
+}
+.form{
+  margin-top: 15rem;
+  margin-left: 35rem;
+  background-color:rgba(0, 0, 0, 0.5);
+  height: 40%;
+  width: 30%;
+  border-radius: 15px;
+}
+.label{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 1.3em;
+  align-items: center;
+  font-weight: 600;
+}
+.input{
+  width: 70%;
+  background-color:rgba(0, 0, 0, 0.5);
+  color: white;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+.submit{
+  margin-left: 6rem;
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  border-radius: 15px;
+  height: 59px;
+  width: 260px;
+  color: white;
+  display: flex;
+  font-style: bold;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-top: 2rem;
+  text-decoration: none;
+}
+.submit:hover{
+  color: white;
+  background:transparent;
+}

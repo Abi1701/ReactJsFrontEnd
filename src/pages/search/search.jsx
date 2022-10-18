@@ -24,7 +24,7 @@ export default function  Search() {
     }
   }
   const handleRoom = () => {
-    navigate('/apps/game/:id')
+    navigate('/apps/edituser')
   }
   return(
     <div className={style.root}>
@@ -52,7 +52,7 @@ export default function  Search() {
                   <th className={style.tbody}>{profile.nama}</th>
                   <th className={style.tbody}>{profile.email}</th>
                   <th className={style.tbody}>{profile.saldo}</th>
-                  <th className={style.button} onClick={() => handleRoom()}>Join</th>
+                  <th className={style.button} onClick={() => handleRoom()}>Edit User</th>
           </>
         )}
               </tr>
