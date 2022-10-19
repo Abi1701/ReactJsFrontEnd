@@ -13,7 +13,6 @@ import Requirement from '../pages/page4/requirement'
 import Score from '../pages/page5/topscore'
 import Subscribe from '../pages/page6/subscribe'
 import Search from '../pages/search/search'
-import Edituser from '../components/edituser/editUser'
 
 
 const Router = (loggedIn) => {
@@ -30,7 +29,6 @@ const Router = (loggedIn) => {
         { path: 'requirement', element: <Requirement /> },
         { path: 'score', element: <Score /> },
         { path: 'subscribe', element: <Subscribe /> },
-        { path: 'edituser', element: <Edituser /> },
         
       ],
     },

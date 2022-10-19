@@ -23,10 +23,19 @@ export default function  Search() {
       setProfile(null)
     }
   }
-  const handleRoom = () => {
-    navigate('/apps/edituser')
+  const [modal, setModal] = useState(false);
+
+  const toggleModal = () => {
+    setModal(!modal);
+  };
+
+  if(modal) {
+    document.body.classList.add('active-modal')
+  } else {
+    document.body.classList.remove('active-modal')
   }
   return(
+    <>
     <div className={style.root}>
       <h1>Players</h1>
       <input
@@ -52,12 +61,46 @@ export default function  Search() {
                   <th className={style.tbody}>{profile.nama}</th>
                   <th className={style.tbody}>{profile.email}</th>
                   <th className={style.tbody}>{profile.saldo}</th>
-                  <th className={style.button} onClick={() => handleRoom()}>Edit User</th>
+                  <th className={style.button} onClick={() => toggleModal()}>Edit User</th>
           </>
         )}
               </tr>
         </tbody>
       </table>
+      {modal && (
+        <div className={style.modal}>
+          <div onClick={toggleModal} className={style.overlay}></div>
+          <div className={style.modalContent}>
+          <div className={style.roots}>
+          <form className={style.form}>
+          <div>
+          <label className={style.label}>
+          Name:
+          <input className={style.input} type="text" name="name" />
+          </label>
+          <label className={style.label}>
+          Email:
+          <input className={style.input} type="email" name="email" />
+          </label>
+          <label className={style.label}>
+          Password:
+          <input className={style.input} type="password" name="password" />
+          </label>
+          <label className={style.label}>
+          Repeat Password:
+          <input className={style.input} type="password" name="repeatpassword" />
+          </label>
+          <input className={style.submit} type="submit" value="Submit" />
+          </div>
+          </form>
+          </div>
+            <button className={style.closeModal} onClick={toggleModal}>
+              CLOSE
+            </button>
+          </div>
+        </div>
+      )}
     </div>
+    </>
   )
 }
